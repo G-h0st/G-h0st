@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITC General Merchandise | InterstateTrade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <span class="logo">ITC</span>
+        <div>
+          <h1>InterstateTrade</h1>
+          <p>General Merchandise Store</p>
+        </div>
+      </div>
+      <button id="cartToggle" class="cart-btn">Cart (<span id="cartCount">0</span>)</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h2>ITC General Merchandise</h2>
+        <p>
+          Shop popular household, personal care, and kitchen essentials inspired by
+          the InterstateTrade inventory lineup.
+        </p>
+        <a href="#products" class="cta">Shop now</a>
+      </div>
+    </section>
+
+    <section id="products" class="products-section container">
+      <div class="section-head">
+        <h3>Featured Products</h3>
+        <p>Everyday goods with dependable quality and value.</p>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+  </main>
+
+  <aside id="cartPanel" class="cart-panel" aria-hidden="true">
+    <div class="cart-header">
+      <h4>Your Cart</h4>
+      <button id="closeCart" aria-label="Close cart">✕</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="total-row">
+        <span>Total</span>
+        <strong id="cartTotal">$0.00</strong>
+      </div>
+      <button class="checkout">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <template id="productTemplate">
+    <article class="product-card">
+      <div class="thumb"></div>
+      <div class="product-body">
+        <h4 class="name"></h4>
+        <p class="description"></p>
+        <div class="product-row">
+          <span class="price"></span>
+          <button class="add">Add</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
