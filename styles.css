@@ -1,0 +1,259 @@
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --text: #182233;
+  --muted: #5b667a;
+  --accent: #0d6efd;
+  --accent-dark: #0957ca;
+  --line: #e4e8f0;
+  --success: #0a8f4c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.topbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #0d6efd, #0a58ca);
+  color: #fff;
+  font-weight: 800;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.brand p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.cart-btn {
+  border: none;
+  background: var(--text);
+  color: #fff;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero {
+  background: radial-gradient(circle at 30% 30%, #d7e7ff, #f2f6ff 45%, #f6f7fb 70%);
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-content {
+  padding: 4rem 0 3.25rem;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.1;
+}
+
+.hero p {
+  margin: 1rem 0 1.35rem;
+  max-width: 58ch;
+  color: var(--muted);
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.products-section {
+  padding: 2rem 0 3rem;
+}
+
+.section-head h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.section-head p {
+  margin: 0.5rem 0 1.4rem;
+  color: var(--muted);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.thumb {
+  height: 130px;
+  background: linear-gradient(160deg, #f2f5ff, #dde8ff);
+}
+
+.product-body {
+  padding: 1rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.description {
+  margin: 0.55rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  min-height: 2.5rem;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  color: var(--success);
+}
+
+.add,
+.checkout {
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.add {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.5rem 0.85rem;
+}
+
+.add:hover,
+.cta:hover {
+  background: var(--accent-dark);
+}
+
+.cart-panel {
+  position: fixed;
+  right: -360px;
+  top: 0;
+  width: min(360px, 100%);
+  height: 100vh;
+  background: #fff;
+  border-left: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  transition: right 220ms ease;
+  z-index: 9;
+}
+
+.cart-panel.open {
+  right: 0;
+}
+
+.cart-header,
+.cart-footer {
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-header button {
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.cart-items {
+  padding: 1rem;
+  overflow-y: auto;
+  flex: 1;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.cart-item {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+
+.checkout {
+  width: 100%;
+  background: var(--text);
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+}
+
+.empty {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
