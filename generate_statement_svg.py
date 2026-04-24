@@ -66,10 +66,6 @@ for t in rows:
     svg.append(f'<text x="72" y="{y}" font-family="monospace" font-size="18" fill="#111">{escape(t)}</text>')
     y += 27
 
-svg.append('<rect x="960" y="780" width="410" height="150" fill="none" stroke="#315a9a" stroke-width="4"/>')
-svg.append('<text x="976" y="820" font-family="monospace" font-size="26" fill="#315a9a">INTERSTATE TRADE COMPANY</text>')
-svg.append('<text x="976" y="856" font-family="monospace" font-size="26" fill="#315a9a">RECEIVED</text>')
-svg.append('<text x="976" y="892" font-family="monospace" font-size="26" fill="#315a9a">25-MAR-2026</text>')
 svg.append('</g></svg>')
 
 with open('statement_generated.svg', 'w', encoding='utf-8') as f:
