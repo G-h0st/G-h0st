@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1300" viewBox="0 0 1800 1300">
+<rect width="1800" height="1300" fill="#8f5f49"/>
+<g transform="translate(180 150) rotate(-4)">
+<rect x="0" y="0" width="1450" height="1020" fill="white"/>
+<rect x="38" y="38" width="1374" height="944" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="12 8"/>
+<text x="72" y="88" font-family="monospace" font-size="22" fill="#111">INTERSTATE TRADE COMPANY LIMITED</text>
+<text x="72" y="121" font-family="monospace" font-size="22" fill="#111">Email: sales@interstatetrade.net</text>
+<text x="72" y="154" font-family="monospace" font-size="22" fill="#111">Mombasa Branch, Ganjon, Mombasa, Kenya</text>
+<text x="72" y="187" font-family="monospace" font-size="22" fill="#111">Web: www.interstatetrade.net</text>
+<text x="72" y="220" font-family="monospace" font-size="22" fill="#111"></text>
+<text x="72" y="253" font-family="monospace" font-size="22" fill="#111">CUSTOMER NAME:       Jagjit Singh</text>
+<text x="72" y="286" font-family="monospace" font-size="22" fill="#111">ACCOUNT REF:         HIC-MBS-CON-2024-HBG</text>
+<text x="72" y="319" font-family="monospace" font-size="22" fill="#111">CONSIGNMENT NO:      HBG0001-Alexander B</text>
+<text x="72" y="352" font-family="monospace" font-size="22" fill="#111">CONSIGNMENT CHANNEL: 0722601996 (Director’s Trade Line)</text>
+<text x="72" y="385" font-family="monospace" font-size="22" fill="#111"></text>
+<text x="72" y="418" font-family="monospace" font-size="22" fill="#111">         CONSIGNMENT SALES ACCOUNT STATEMENT</text>
+<text x="72" y="451" font-family="monospace" font-size="22" fill="#111"></text>
+<text x="72" y="484" font-family="monospace" font-size="22" fill="#111">STATEMENT DATE: 25-Mar-2026</text>
+<text x="72" y="517" font-family="monospace" font-size="22" fill="#111">REPORT PERIOD: Jan 2024 – July 2024</text>
+<text x="72" y="550" font-family="monospace" font-size="22" fill="#111"></text>
+<text x="72" y="583" font-family="monospace" font-size="22" fill="#111">DATE       TIME      TRANSACTION REF   DESCRIPTION                         DEBIT (Kshs)   CREDIT (Kshs)   BALANCE (Kshs)</text>
+<text x="72" y="616" font-family="monospace" font-size="22" fill="#111">-------------------------------------------------------------------------------------------------------------------------</text>
+<text x="72" y="649" font-family="monospace" font-size="18" fill="#111">24-Jan-24  -         -                 Stock Issue: 2 truck batteries       60,000.00       -               60,000.00</text>
+<text x="72" y="676" font-family="monospace" font-size="18" fill="#111">24-Jan-24  -         -                 Stock Issue: Electric compressor      80,000.00       -              140,000.00</text>
+<text x="72" y="703" font-family="monospace" font-size="18" fill="#111">24-Jan-24  -         -                 Stock Issue: Portable generator       60,000.00       -              200,000.00</text>
+<text x="72" y="730" font-family="monospace" font-size="18" fill="#111">24-Jan-24  -         -                 Stock Issue: Vertical band saw        50,000.00       -              250,000.00</text>
+<text x="72" y="757" font-family="monospace" font-size="18" fill="#111"></text>
+<text x="72" y="784" font-family="monospace" font-size="18" fill="#111">14-Feb-24  10:26:47  QJE4UUVMTU        M-Pesa Payment Received               -             100,000.00      150,000.00</text>
+<text x="72" y="811" font-family="monospace" font-size="18" fill="#111">16-Feb-24  15:06:59  QJG311C3AB        M-Pesa Payment Received               -              73,000.00       77,000.00</text>
+<text x="72" y="838" font-family="monospace" font-size="18" fill="#111">16-Feb-24  17:27:33  QJG61CYET6        M-Pesa Payment Received               -               7,000.00       70,000.00</text>
+<text x="72" y="865" font-family="monospace" font-size="18" fill="#111">16-Feb-24  21:39:10  QJG520WBNZ        M-Pesa Payment Received               -              30,000.00       40,000.00</text>
+<text x="72" y="892" font-family="monospace" font-size="18" fill="#111">18-Feb-24  23:24:59  QJI661Y30K        M-Pesa Payment Received               -              30,000.00       10,000.00</text>
+<text x="72" y="919" font-family="monospace" font-size="18" fill="#111"></text>
+<text x="72" y="946" font-family="monospace" font-size="18" fill="#111">04-Feb-24  20:01:17  RB47WRCSJ9        Funds Transferred to (credit)      2,000.00         -               12,000.00</text>
+<text x="72" y="973" font-family="monospace" font-size="18" fill="#111">07-Feb-24  20:41:24  RB785TORM6        Funds Transferred to (credit)      1,300.00         -               13,300.00</text>
+<text x="72" y="1000" font-family="monospace" font-size="18" fill="#111">08-Feb-24  20:03:16  RB878AUNKB        Funds Transferred to (credit)      2,000.00         -               15,300.00</text>
+<text x="72" y="1027" font-family="monospace" font-size="18" fill="#111"></text>
+<text x="72" y="1054" font-family="monospace" font-size="18" fill="#111">-------------------------------------------------------------------------------------------------------------------------</text>
+<text x="72" y="1081" font-family="monospace" font-size="18" fill="#111">TOTAL INVENTORY VALUE ISSUED:        Kshs 250,000.00</text>
+<text x="72" y="1108" font-family="monospace" font-size="18" fill="#111">TOTAL TRADE REMITTANCES RECEIVED:    Kshs 270,000.00</text>
+<text x="72" y="1135" font-family="monospace" font-size="18" fill="#111">TOTAL FUNDS TRANSFERRED (CREDIT):    Kshs 5,300.00</text>
+<text x="72" y="1162" font-family="monospace" font-size="18" fill="#111">OUTSTANDING TRADE BALANCE:           Kshs 15,300.00</text>
+<text x="72" y="1189" font-family="monospace" font-size="18" fill="#111"></text>
+<text x="72" y="1216" font-family="monospace" font-size="18" fill="#111">DECLARATION:</text>
+<text x="72" y="1243" font-family="monospace" font-size="18" fill="#111">This document is a computer-generated extract of the sales account records.</text>
+<text x="72" y="1270" font-family="monospace" font-size="18" fill="#111">It represents recovery of funds from stock sales as detailed above.</text>
+<text x="72" y="1297" font-family="monospace" font-size="18" fill="#111">This does not represent a personal loan or liability.</text>
+<text x="72" y="1324" font-family="monospace" font-size="18" fill="#111"></text>
+<text x="72" y="1351" font-family="monospace" font-size="18" fill="#111">Generated by: System Admin [Inventory Control – Ganjoni Branch]</text>
+<rect x="960" y="780" width="410" height="150" fill="none" stroke="#315a9a" stroke-width="4"/>
+<text x="976" y="820" font-family="monospace" font-size="26" fill="#315a9a">INTERSTATE TRADE COMPANY</text>
+<text x="976" y="856" font-family="monospace" font-size="26" fill="#315a9a">RECEIVED</text>
+<text x="976" y="892" font-family="monospace" font-size="26" fill="#315a9a">25-MAR-2026</text>
+</g></svg>
